@@ -1,0 +1,25 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Testowa #1",
+    "description": "",
+    "home_page_url": "https://badass-mohawk.github.io/gh-pages",
+    "feed_url": "https://badass-mohawk.github.io/gh-pages/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Jakub Testowy"
+    },
+    "items": [
+        {
+            "id": "https://badass-mohawk.github.io/gh-pages/test-test-test-kuba-25012025.html",
+            "url": "https://badass-mohawk.github.io/gh-pages/test-test-test-kuba-25012025.html",
+            "title": "Test test test Kuba 25.01.2025",
+            "author": {
+                "name": "Jakub Testowy"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-01-25T18:21:26+01:00",
+            "date_modified": "2026-01-25T18:21:26+01:00"
+        }
+    ]
+}
