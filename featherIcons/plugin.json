@@ -1,0 +1,225 @@
+{
+  "name": "Feather Icons",
+  "description": "This plugin allows you to add Feather icons to your Publii site.",
+  "license": "GPL-3.0",
+  "author": "TidyCustoms",
+  "version": "1.5.1",
+  "scope": "site",
+  "minimumPubliiVersion": "0.43.1",
+  "assets": {
+    "front": [
+      "feather-sprite.svg"
+    ]
+  },
+  "config": [
+    {
+      "name": "separator",
+      "type": "separator",
+      "label": "",
+      "group": "Options",
+      "note": "To add icons to your site, insert a shortcode like <strong>[fi=bell]</strong> anywhere, including in posts, pages, menus, footers, etc., where 'bell' is the icon's name. This will use the default icon settings from the plugin's configuration. You can also use an extended shortcode format to override these settings: <strong>[fi=bell size=90px color=#ff0000 class=custom-class aria-hidden=true]</strong>. For a list of icons, visit <a href=\"https://feathericons.com\" target=\"_blank\">Feather Icons</a> website. Detailed instructions and examples are available in the <a href='https://getpublii.com/docs/feather-icons.html' target='_blank'>plugin documentation</a>.",
+      "size": "no-line"
+  },
+    {
+      "name": "iconSize",
+      "label": "Icon size",
+      "group": "Options",
+      "type": "number",
+      "value": "24"
+    },
+    {
+      "name": "iconSizeUnit",
+      "label": "Icon size unit",
+      "group": "Options",
+      "note": "Select the unit for the icon's size",
+      "type": "select",
+      "value": "px",
+      "options": [
+        {
+          "value": "px",
+          "label": "px"
+        },
+        {
+          "value": "em",
+          "label": "em"
+        },
+        {
+          "value": "rem",
+          "label": "rem"
+        },
+        {
+          "value": "vw",
+          "label": "vw"
+        },
+        {
+          "value": "vh",
+          "label": "vh"
+        },
+        {
+          "value": "vmin",
+          "label": "vmin"
+        },
+        {
+          "value": "vmax",
+          "label": "vmax"
+        }
+      ]
+    },
+    {
+      "name": "iconStrokeWidth",
+      "label": "Stroke width",
+      "group": "Options",
+      "type": "range",
+      "value": "2",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "note": "The icon's stroke width in pixels"
+    },
+    {
+      "name": "nonScalingStroke",
+      "label": "Non-scaling stroke",
+      "group": "Options",
+      "type": "checkbox",
+      "value": false,
+      "note": "Enable this option to prevent the stroke width from changing when scaling the icon, ensuring consistent stroke appearance regardless of size."
+    },
+    {
+      "name": "iconStrokeColorOption",
+      "label": "Stroke color option",
+      "group": "Options",
+      "type": "select",
+      "value": "currentColor",
+      "options": [
+        {
+          "value": "currentColor",
+          "label": "Use Current Color"
+        },
+        {
+          "value": "customColor",
+          "label": "Custom Color"
+        }
+      ]
+    },
+    {
+      "name": "iconCustomStrokeColor",
+      "label": "Custom stroke color",
+      "group": "Options",
+      "type": "colorpicker",
+      "value": "#000000",
+      "dependencies": [
+        {
+          "field": "iconStrokeColorOption",
+          "value": "customColor"
+        }
+      ]
+    },
+    {
+      "name": "iconVerticalAlign",
+      "label": "Icon vertical align",
+      "group": "Options",
+      "note": "Select the vertical alignment for the icons",
+      "type": "select",
+      "value": "middle",
+      "options": [
+        {
+          "value": "baseline",
+          "label": "Baseline",
+          "group": "Keyword values"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom",
+          "group": "Keyword values"
+        },
+        {
+          "value": "middle",
+          "label": "Middle",
+          "group": "Keyword values"
+        },
+        {
+          "value": "sub",
+          "label": "Sub",
+          "group": "Keyword values"
+        },
+        {
+          "value": "super",
+          "label": "Super",
+          "group": "Keyword values"
+        },
+        {
+          "value": "text-top",
+          "label": "Text Top",
+          "group": "Keyword values"
+        },
+        {
+          "value": "text-bottom",
+          "label": "Text Bottom",
+          "group": "Keyword values"
+        },
+        {
+          "value": "top",
+          "label": "Top",
+          "group": "Keyword values"
+        },
+        {
+          "value": "length",
+          "label": "Custom values",
+          "group": "Custom Length or Percentage"
+        }
+      ]
+    },
+    {
+      "name": "iconVerticalAlignCustom",
+      "label": "Custom vertical align value",
+      "group": "Options",
+      "note": "Specify a custom vertical align value (e.g., -5px, 0.5em, 5%)",
+      "placeholder": "-5px",
+      "type": "text",
+      "value": "",
+      "dependencies": [
+        {
+          "field": "iconVerticalAlign",
+          "value": "length"
+        }
+      ]
+    },
+    {
+      "name": "ariaHiddenDefault",
+      "label": "ARIA hidden attribute",
+      "group": "Advanced",
+      "type": "select",
+      "value": "false",
+      "options": [
+        {
+          "value": "true",
+          "label": "True"
+        },
+        {
+          "value": "false",
+          "label": "False"
+        }
+      ],
+      "note": "Set default value for 'aria-hidden' attribute. If set to false, the attribute is not added to the SVG icon markup."
+    },
+    {
+      "name": "iconLoadingMethod",
+      "label": "Icon loading method",
+      "group": "Advanced",
+      "type": "select",
+      "value": "external",
+      "options": [
+        {
+          "value": "external",
+          "label": "Use SVG map file"
+        },
+        {
+          "value": "internal",
+          "label": "Use inline SVG code"
+        }
+      ],
+      "note": "Choose how the icons should be loaded on the production site. The 'Use SVG map file' method involves loading SVG maps from a dedicated file, providing enhanced organization but potentially increasing page load times due to an additional server request. Alternatively, the 'Use inline SVG code' approach embeds SVG directly within the HTML, resulting in faster page loading by eliminating the need for this additional request but potentially increasing the overall code size of your site."
+    }
+    
+  ]
+}
