@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>Testowa #1</title>
+    <title>Doable</title>
     <link href="https://badass-mohawk.github.io/gh-pages/feed.xml" rel="self" />
     <link href="https://badass-mohawk.github.io/gh-pages" />
     <updated>2026-02-03T15:26:45+01:00</updated>
@@ -14,8 +14,8 @@
         <author>
             <name>Jakub Testowy</name>
         </author>
-        <link href="https://badass-mohawk.github.io/gh-pages/post-3.html"/>
-        <id>https://badass-mohawk.github.io/gh-pages/post-3.html</id>
+        <link href="https://badass-mohawk.github.io/gh-pages/post-3/"/>
+        <id>https://badass-mohawk.github.io/gh-pages/post-3/</id>
         <media:content url="https://badass-mohawk.github.io/gh-pages/media/posts/7/SCR-20260129-tmrn-2.jpeg" medium="image" />
 
         <updated>2026-02-03T15:25:03+01:00</updated>
@@ -36,8 +36,8 @@
         <author>
             <name>Jakub Testowy</name>
         </author>
-        <link href="https://badass-mohawk.github.io/gh-pages/post-2.html"/>
-        <id>https://badass-mohawk.github.io/gh-pages/post-2.html</id>
+        <link href="https://badass-mohawk.github.io/gh-pages/post-2/"/>
+        <id>https://badass-mohawk.github.io/gh-pages/post-2/</id>
         <media:content url="https://badass-mohawk.github.io/gh-pages/media/posts/6/SCR-20260131-mrxr-2.jpeg" medium="image" />
 
         <updated>2026-02-03T15:24:44+01:00</updated>
@@ -58,8 +58,8 @@
         <author>
             <name>Jakub Testowy</name>
         </author>
-        <link href="https://badass-mohawk.github.io/gh-pages/post-1.html"/>
-        <id>https://badass-mohawk.github.io/gh-pages/post-1.html</id>
+        <link href="https://badass-mohawk.github.io/gh-pages/post-1/"/>
+        <id>https://badass-mohawk.github.io/gh-pages/post-1/</id>
         <media:content url="https://badass-mohawk.github.io/gh-pages/media/posts/5/sugar-5040276_1280-2.jpg" medium="image" />
 
         <updated>2026-02-03T15:21:19+01:00</updated>
@@ -80,8 +80,8 @@
         <author>
             <name>Jakub Testowy</name>
         </author>
-        <link href="https://badass-mohawk.github.io/gh-pages/test-test-test-kuba-25012025.html"/>
-        <id>https://badass-mohawk.github.io/gh-pages/test-test-test-kuba-25012025.html</id>
+        <link href="https://badass-mohawk.github.io/gh-pages/test-test-test-kuba-25012025/"/>
+        <id>https://badass-mohawk.github.io/gh-pages/test-test-test-kuba-25012025/</id>
 
         <updated>2026-01-25T18:21:26+01:00</updated>
             <summary></summary>
