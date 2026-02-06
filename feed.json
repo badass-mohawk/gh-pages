@@ -7,7 +7,7 @@
     "user_comment": "",
     "icon": "https://badass-mohawk.github.io/gh-pages/media/website/logo-nowe-Solutions-400-x-150-px-250-x-80-px-400-x-120-px-1.png",
     "author": {
-        "name": "Jakub Testowy"
+        "name": "Jakub Skorupski"
     },
     "items": [
         {
@@ -17,7 +17,7 @@
             "content_html": "\n    <figure class=\"post__image post__image--full\">\n      <img loading=\"lazy\" src=\"https://badass-mohawk.github.io/gh-pages/media/posts/7/SCR-20260129-tmrn.jpeg\" height=\"1124\" width=\"1682\" alt=\"\"  sizes=\"(min-width: 37.5em) 1600px, 88vw\" srcset=\"https://badass-mohawk.github.io/gh-pages/media/posts/7/responsive/SCR-20260129-tmrn-xs.jpeg 640w ,https://badass-mohawk.github.io/gh-pages/media/posts/7/responsive/SCR-20260129-tmrn-sm.jpeg 768w ,https://badass-mohawk.github.io/gh-pages/media/posts/7/responsive/SCR-20260129-tmrn-md.jpeg 1024w ,https://badass-mohawk.github.io/gh-pages/media/posts/7/responsive/SCR-20260129-tmrn-lg.jpeg 1366w ,https://badass-mohawk.github.io/gh-pages/media/posts/7/responsive/SCR-20260129-tmrn-xl.jpeg 1600w\">\n      \n    </figure>",
             "image": "https://badass-mohawk.github.io/gh-pages/media/posts/7/SCR-20260129-tmrn-2.jpeg",
             "author": {
-                "name": "Jakub Testowy"
+                "name": "Jakub Skorupski"
             },
             "tags": [
             ],
@@ -31,7 +31,7 @@
             "content_html": "\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://badass-mohawk.github.io/gh-pages/media/posts/6/SCR-20260131-mrxr.jpeg\" height=\"854\" width=\"1550\" alt=\"\"  sizes=\"(min-width: 37.5em) 1600px, 88vw\" srcset=\"https://badass-mohawk.github.io/gh-pages/media/posts/6/responsive/SCR-20260131-mrxr-xs.jpeg 640w ,https://badass-mohawk.github.io/gh-pages/media/posts/6/responsive/SCR-20260131-mrxr-sm.jpeg 768w ,https://badass-mohawk.github.io/gh-pages/media/posts/6/responsive/SCR-20260131-mrxr-md.jpeg 1024w ,https://badass-mohawk.github.io/gh-pages/media/posts/6/responsive/SCR-20260131-mrxr-lg.jpeg 1366w ,https://badass-mohawk.github.io/gh-pages/media/posts/6/responsive/SCR-20260131-mrxr-xl.jpeg 1600w\">\n      \n    </figure>",
             "image": "https://badass-mohawk.github.io/gh-pages/media/posts/6/SCR-20260131-mrxr-2.jpeg",
             "author": {
-                "name": "Jakub Testowy"
+                "name": "Jakub Skorupski"
             },
             "tags": [
             ],
@@ -45,24 +45,12 @@
             "content_html": "\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://badass-mohawk.github.io/gh-pages/media/posts/5/sugar-5040276_1280.jpg\" height=\"853\" width=\"1280\" alt=\"\"  sizes=\"(min-width: 37.5em) 1600px, 88vw\" srcset=\"https://badass-mohawk.github.io/gh-pages/media/posts/5/responsive/sugar-5040276_1280-xs.jpg 640w ,https://badass-mohawk.github.io/gh-pages/media/posts/5/responsive/sugar-5040276_1280-sm.jpg 768w ,https://badass-mohawk.github.io/gh-pages/media/posts/5/responsive/sugar-5040276_1280-md.jpg 1024w ,https://badass-mohawk.github.io/gh-pages/media/posts/5/responsive/sugar-5040276_1280-lg.jpg 1366w ,https://badass-mohawk.github.io/gh-pages/media/posts/5/responsive/sugar-5040276_1280-xl.jpg 1600w\">\n      \n    </figure>",
             "image": "https://badass-mohawk.github.io/gh-pages/media/posts/5/sugar-5040276_1280-2.jpg",
             "author": {
-                "name": "Jakub Testowy"
+                "name": "Jakub Skorupski"
             },
             "tags": [
             ],
             "date_published": "2026-02-03T15:21:19+01:00",
             "date_modified": "2026-02-03T15:26:45+01:00"
-        },
-        {
-            "id": "https://badass-mohawk.github.io/gh-pages/test-test-test-kuba-25012025/",
-            "url": "https://badass-mohawk.github.io/gh-pages/test-test-test-kuba-25012025/",
-            "title": "Test test test Kuba 25.01.2025",
-            "author": {
-                "name": "Jakub Testowy"
-            },
-            "tags": [
-            ],
-            "date_published": "2026-01-25T18:21:26+01:00",
-            "date_modified": "2026-01-25T18:21:26+01:00"
         }
     ]
 }
